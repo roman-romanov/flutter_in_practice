@@ -45,6 +45,7 @@ class BottomSheetApp extends StatelessWidget {
           onPressed: () {
             _showIt();
           },
+          child: Text('Bottom Sheet'),
         ),
       ),
     );

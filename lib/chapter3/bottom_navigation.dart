@@ -21,15 +21,15 @@ class _BotomNavigationBarAppState extends State<BotomNavigationBarApp> {
           items: [
             BottomNavigationBarItem(
               icon: Icon(Icons.announcement),
-              title: Text('Annoncement'),
+              label: 'Annoncement', //title: Text('Annoncement'),
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.cake),
-              title: Text('Birthday'),
+              label: 'Birthday', //title: Text('Birthday'),
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.cloud),
-              title: Text('Data'),
+              label: 'Data', //title: Text('Data'),
             ),
           ],
           currentIndex: _currentPage,
