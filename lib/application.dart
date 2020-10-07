@@ -6,7 +6,12 @@ import 'package:flutter/material.dart';
 //import 'form.dart';
 //import 'checkbox.dart';
 //import 'date.dart';
-import 'dismissible.dart';
+//import 'dismissible.dart';
+import 'dialogs/tooltip.dart';
+import 'dialogs/simple_dialog.dart';
+import 'dialogs/alert_dialog.dart';
+import 'dialogs/snackbar.dart';
+import 'dialogs/bottom_sheet.dart';
 
 class Application extends StatefulWidget {
   final String title;
@@ -71,7 +76,12 @@ class _ApplicationState extends State<Application> {
           //Expanded(child: FormApp()),
           //Expanded(child:CheckBoxApp()),
           //Expanded(child: DataApp()),
-          Expanded(child: DismissibleApp()),
+          //Expanded(child: DismissibleApp()),
+          Expanded(child: TooltipApp()),
+          Expanded(child: SimpleDialogApp()),
+          Expanded(child: AlertDialogApp()),
+          Expanded(child:SnackBarApp()),
+          Expanded(child: BottomSheetApp()),
         ],
       ),
     );
