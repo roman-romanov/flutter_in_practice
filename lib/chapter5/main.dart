@@ -28,7 +28,7 @@ class FlutterBook extends StatelessWidget {
               tabs: [
                 Tab(
                   icon: Icon(Icons.date_range),
-                  text: 'Appontment',
+                  text: 'Appointments',
                 ),
                 Tab(
                   icon: Icon(Icons.contacts),
@@ -46,7 +46,7 @@ class FlutterBook extends StatelessWidget {
             ),
           ),
           body: TabBarView(children: [
-            Appointment(),
+            Appointments(),
             Contacts(),
             Notes(),
             Tasks(),
